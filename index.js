@@ -2,7 +2,7 @@
 
 const koa = require('koa');
 const app = koa();
-const PORT = process.env.PORT || 1234;
+const PORT = 1234;
 
 app.use(function *() {
   this.body = 'Hello World!';
