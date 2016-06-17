@@ -11,7 +11,3 @@ app.use(function *() {
 app.listen(PORT, () => {
   console.log(`Started listening on ${PORT}`);
 });
-
-app.listen(PORT + 1, () => {
-  console.log(`Started listening on ${PORT + 1}`);
-});
