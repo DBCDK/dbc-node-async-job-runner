@@ -22,6 +22,7 @@
     "koa": "^1.2.0"
   },
   "devDependencies": {
+    "expect": "^1.20.1",
     "mocha": "^2.5.3",
     "mocha-jenkins-reporter": "^0.2.2",
     "standard": "^7.1.2"
